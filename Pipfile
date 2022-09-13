@@ -8,7 +8,7 @@ django = "*"
 djangorestframework = "*"
 django-cors-headers = "*"
 python-decouple = "*"
-psycopg2-binary = "*"
+mysqlclient = "*"
 
 [dev-packages]
 pynvim = "*"
