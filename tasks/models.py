@@ -10,5 +10,4 @@ class Task(models.Model):
 
     @property
     def delayed(self) -> bool:
-        print(self.due, type(self.due))
         return self.due < date.today()
